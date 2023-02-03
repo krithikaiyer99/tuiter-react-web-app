@@ -356,3 +356,217 @@ p#id-selector-2 {
     height: 200px;
     color: white;
 }
+
+.animation-keyframes {
+    position: relative;
+    top: 0px;
+    animation-duration: 7s;
+    animation-name: slidein;
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    color: white;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+
+@keyframes slidein {
+    from {
+        position: relative;
+        top: 0px;
+        font-size: 100%;
+        margin-left: 100%;
+        width: 200px;
+        height: 200px;
+        background-color: yellow;
+        color: black;
+    }
+
+    50% {
+        position: relative;
+        top: -200px;
+        font-size: 100%;
+        margin-left: 25%;
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+        color: white;
+    }
+
+    to {
+        position: relative;
+        top: 0px;
+        font-size: 100%;
+        margin-left: 0%;
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        color: white;
+    }
+}
+
+.flex-container {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+.flex-box {
+    border: 5px gray solid;
+    margin: 10px;
+    padding: 10px;
+}
+
+.flex-box-1 {
+    background-color: yellow;
+}
+
+.flex-box-2 {
+    background-color: blue;
+    color: white;
+}
+
+.flex-box-3 {
+    background-color: red;
+    color: white;
+}
+
+.flex-container-two {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+}
+
+.flex-container-three {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container-four {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    justify-content: end;
+}
+.flex-container-five {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    justify-content: space-around;
+ }
+ 
+ .flex-container-six {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    justify-content: space-between;
+ }
+ .flex-container-seven {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+ }
+ 
+ .flex-container-eight {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+ }
+ 
+ .flex-container-nine {
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    display: flex;
+    /*justify-content: space-evenly;*/
+    /*align-items: center;*/
+ }
+ .flex-container-nine > .flex-box {
+    flex-basis: 100%;
+ }
+ 
+ @media (min-width: 0px)
+   and (max-width: 600px) {
+   body {
+       background-color: yellow;
+   }
+   .media-query {
+       background-color: red;
+       color: white;
+   }
+}
+
+@media (min-width: 600px)
+   and (max-width: 1200px) {
+   body {
+       background-color: blue;
+       color: white;
+   }
+   .media-query {
+       background-color: yellow;
+       color: black;
+   }
+}
+@media (min-width: 1200px)
+   and (max-width: 1800px) {
+  body {
+    background-color: red;
+    color: white;
+  }
+  .media-query {
+    background-color: blue;
+    color: white;
+  }
+}
+
+@media (min-width: 0px)
+   and (max-width: 600px) {
+   body {
+       background-color: lightcyan;
+   }
+   .media-query-two {
+       background-color: red;
+       color: white;
+   }
+}
+
+@media (min-width: 600px)
+   and (max-width: 1200px) {
+   body {
+       background-color: cyan;
+       color: white;
+   }
+   .media-query-two {
+       background-color: lightgreen;
+       color: black;
+   }
+}
+@media (min-width: 1200px)
+   and (max-width: 1800px) {
+  body {
+    background-color: pink;
+    color: white;
+  }
+  .media-query-two {
+    background-color: purple;
+    color: white;
+  }
+}
+
+
+
+
