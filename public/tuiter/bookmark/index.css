@@ -1,0 +1,8 @@
+body {
+    background-color: black;
+}
+
+.wd-border {
+    border-color:  rgb(47, 51, 54);
+    border: solid;
+} 

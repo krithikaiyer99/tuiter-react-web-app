@@ -1,14 +1,15 @@
 body {
     background-color: black;
+    right: 16px;
 }
 
-.search-container {
+.wd-search-container {
     flex-direction: row;
     flex-wrap: nowrap;
     display: flex;
 }
 
-.search-bar-container {
+.wd-search-bar-container {
     background-color: #5A5A5A;
     border-radius: 25px;
     padding-top: 5px;
@@ -16,7 +17,7 @@ body {
     width: 80%;
 }
 
-.search-bar {
+.wd-search-bar {
     background-color: #5A5A5A;
     border: none;
     justify-self: center;
@@ -24,7 +25,7 @@ body {
     outline: none;
 }
 
-.search-icon {
+.wd-search-icon {
     padding-left: 10px;
     padding-right: 10px;
 }
@@ -33,38 +34,39 @@ input[type="search"]::placeholder {
     color: rgb(110, 118, 125);
 }
 
-.setting-gear {
+.wd-setting-gear {
     position: fixed;
     right: 12px;
 }
 
-.menu-container {
+.wd-menu-container {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
     color: rgb(110, 118, 125);
 }
 
-.menu-item {
+.wd-menu-item {
     padding: 16px;
 }
 
-.menu-item-highlight {
+.wd-menu-item-highlight {
     border-bottom: solid;
     border-width: 2px;
-    color: rgb(29,161,242);
+    color: rgb(29, 161, 242);
 }
 
-.content-container {
+.wd-content-container {
     margin-top: 10px;
-    border: 0.2px gray solid;;
-    border-color:  rgb(110, 118, 125);
+    border: 0.2px gray solid;
+    ;
+    border-color: rgb(47, 51, 54);
     color: rgb(110, 118, 125);
     font-size: 13px;
     padding: 20px;
 }
 
-.content-container-header {
+.wd-content-container-header {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -72,35 +74,37 @@ input[type="search"]::placeholder {
     align-items: center;
 }
 
-.content-container-header-two {
+.wd-content-container-header-two {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
 }
 
-.title {
+.wd-title {
     color: white;
     font-size: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
 }
- .corner {
+
+.wd-corner {
     color: white;
     font-size: 30px;
- }
- 
- .account {
+}
+
+.wd-account {
     font-weight: bold;
     font-size: 13px;
     color: white;
     padding-right: 10px;
- }
+}
 
- .content-image {
+.wd-content-image {
     border-radius: 4px;
     right: 16px;
- }
- .round {
+}
+
+.wd-round {
     border-radius: 50%;
     padding-right: 5px;
- }
+}
