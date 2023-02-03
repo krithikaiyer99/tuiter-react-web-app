@@ -1,12 +1,18 @@
 body {
     background-color: black;
-    right: 16px;
+    /* position: absolute;
+    left: 16px;
+    top: 12px; */
+    border: solid  rgb(47, 51, 54);
 }
 
 .wd-search-container {
     flex-direction: row;
     flex-wrap: nowrap;
-    display: flex;
+    display: flex; 
+    margin-left: 16px;
+    margin-top: 12px;
+    margin-right: 12px;
 }
 
 .wd-search-bar-container {
@@ -14,7 +20,8 @@ body {
     border-radius: 25px;
     padding-top: 5px;
     padding-bottom: 5px;
-    width: 80%;
+    padding-right: 5px;
+    width: 50%;
 }
 
 .wd-search-bar {
@@ -35,7 +42,7 @@ input[type="search"]::placeholder {
 }
 
 .wd-setting-gear {
-    position: fixed;
+    position: absolute;
     right: 12px;
 }
 
@@ -43,6 +50,8 @@ input[type="search"]::placeholder {
     display: flex;
     flex-wrap: nowrap;
     flex-direction: row;
+    margin-left: 16px;
+    margin-top: 12px;
     color: rgb(110, 118, 125);
 }
 
@@ -57,21 +66,29 @@ input[type="search"]::placeholder {
 }
 
 .wd-content-container {
-    margin-top: 10px;
-    border: 0.2px gray solid;
-    ;
-    border-color: rgb(47, 51, 54);
+    border: solid rgb(47, 51, 54);
     color: rgb(110, 118, 125);
     font-size: 13px;
-    padding: 20px;
 }
 
 .wd-content-container-header {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+}
+.wd-space-btw {
     justify-content: space-between;
-    align-items: center;
+    justify-items: center;
+}
+
+.wd-margins {
+    margin-left: 16px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.wd-margin-lefttop {
+    margin-left: 16px;
+    margin-top: 12px;
 }
 
 .wd-content-container-header-two {
@@ -83,28 +100,48 @@ input[type="search"]::placeholder {
 .wd-title {
     color: white;
     font-size: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wd-marginleft {
+    margin-left: 16px;
 }
 
 .wd-corner {
     color: white;
     font-size: 30px;
+    right: 20px;
+    position: absolute;
 }
 
 .wd-account {
     font-weight: bold;
     font-size: 13px;
     color: white;
-    padding-right: 10px;
 }
 
 .wd-content-image {
     border-radius: 4px;
-    right: 16px;
+    margin-right: 16px;
 }
 
 .wd-round {
     border-radius: 50%;
-    padding-right: 5px;
+}
+.wd-content-header-d{
+    display: flex;
+    font-size: 13px;
+}
+.wd-text-white {
+    color:white;
+}
+
+.wd-text {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+.wd-border {
+    border: solid rgb(47, 51, 54);
+    color: rgb(110, 118, 125);
 }
