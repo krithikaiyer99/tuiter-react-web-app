@@ -3,7 +3,7 @@ body {
 }
 
 .wd-border {
-    border-bottom: 1px solid rgb(47, 51, 54);
+    border: 1px solid rgb(47, 51, 54);
 }
 
 .wd-margin {
@@ -20,4 +20,60 @@ body {
     color: lightgray;
     font-size: 13px;
     margin-bottom: 12px;
+}
+
+.wd-profile-image {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 12px;
+}
+
+img.avatar {
+    width: 100%;
+    height: auto;
+  }
+
+.wd-text-white {
+    color : white
+}
+
+.wd-text-lightgrey {
+    color : lightgray
+}
+
+.wd-font-15 {
+    font-size: 15px;
+}
+
+.wd-content {
+    display: flex;
+    margin-bottom: 12px;
+}
+
+.wd-content-width {
+    max-width: 506px;
+    margin-bottom: 12px;
+}
+
+.wd-content-image {
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom: 1px solid rgb(47, 51, 54);
+}
+
+.wd-content-border {
+    border-radius: 20px;
+}
+
+.wd-padding {
+    padding: 12px;
+}
+
+.wd-lower-content {
+    flex-direction: column;
+}
+.wd-icons {
+    color: white;
 }
