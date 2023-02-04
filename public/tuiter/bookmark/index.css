@@ -43,6 +43,10 @@ img.avatar {
     color : lightgray
 }
 
+.wd-text-red {
+    color : red;
+}
+
 .wd-font-15 {
     font-size: 15px;
 }
@@ -75,5 +79,10 @@ img.avatar {
     flex-direction: column;
 }
 .wd-icons {
-    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+
+.wd-no-text-line {
+    text-decoration: none;
 }
