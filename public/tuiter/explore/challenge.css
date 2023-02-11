@@ -1,0 +1,61 @@
+.list-group-item.override-border {
+    border-width: 0;
+ }
+
+ .nav-link.override-border {
+    border-width: 0;
+    color: #808080;
+ }
+
+ .nav-link.override-active-color {
+    border-bottom: solid;
+    border-color: rgb(29, 161, 242);
+ }
+
+ .nav-tabs.override-border {
+    border-width: 0;
+ }
+
+ .list-group-item.override-active {
+    font-weight: bold;
+    color: black;
+ }
+
+ .btn.color-light-blue{
+    background-color: rgb(29, 161, 242);
+    border: 0;
+ }
+
+ .form-control.override-bg-color {
+    background-color: #ebeded;
+ }
+ .list-group-item.override-bg-color {
+    background-color: #ebeded;
+ }
+ .list-group-item.override-text {
+    color: rgb(29, 161, 242);
+ }
+
+ .btn.color-grey{
+    background-color: black;
+    border: 0;
+ }
+ .list-group.override-border-radius {
+    border-radius: 20px;
+ }
+ .tnc {
+    color: gray; 
+    font-size: 14px;
+ }
+ .override-grey-text {
+    color: gray;
+ }
+ .override-blue-text {
+    color: rgb(29, 161, 242);
+ }
+ .override-yellow-text {
+    color: orange;
+ }
+ .font-size-14 {
+    font-size: 14px;
+ }
