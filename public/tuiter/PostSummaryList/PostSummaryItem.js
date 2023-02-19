@@ -10,6 +10,7 @@ const PostSummaryItem = (post) => {
                 <div class="fw-bolder">
                 ${post.title}
                 </div>
+                <div style="color: gray;">${post.tweets != '' ? post.tweets + ' Tweets' : ''}</div>
             </div>
             <div class="col-4"><img class="float-end rounded" height="100px"
                     src= ${post.image} width="100px"></div>

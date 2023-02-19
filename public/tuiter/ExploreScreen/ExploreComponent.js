@@ -33,8 +33,8 @@ const ExploreComponent = () => {
                 <img src="../../images/main-image.jpg" width="100%">
                 <p class="position-absolute  bottom-0 left-0 text-white"
                     style="font-size: 36px; padding-left: 4px;">SpaceX's Starship</p>
-            </div>           
-           ${PostSummaryList()}
+            </div>        
+            ${PostSummaryList()}
     `;
 };
 export default ExploreComponent;

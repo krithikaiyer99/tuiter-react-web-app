@@ -7,7 +7,7 @@ const NavigationSidebar = (active) => {
               class="d-none d-xl-block text-decoration-none text-reset ps-2" href="../HomeScreen/index.html">Home</a>
       </li>
       <li class="list-group-item ${active=='explore'?'active':''} d-flex align-items-center"><i class="fas fa-hashtag"></i><a
-              class="d-none d-xl-block text-decoration-none text-reset ps-2" href="../explore/index.html">Explore</a></li>
+              class="d-none d-xl-block text-decoration-none text-reset ps-2" href="../ExploreScreen/index.html">Explore</a></li>
       <li class="list-group-item ${active=='notifications'?'active':''} d-flex align-items-center"><i class="fa-solid fa-bell"></i><a
               class="d-none d-xl-block text-decoration-none text-reset ps-2" href="#">Notifications</a></li>
       <li class="list-group-item ${active=='messages'?'active':''} d-flex align-items-center"><i class="fa-solid fa-envelope"></i><a

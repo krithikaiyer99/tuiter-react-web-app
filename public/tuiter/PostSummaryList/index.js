@@ -3,7 +3,7 @@ import exploreItems from "./posts.js"
 
 const PostSummaryList = () => {
    return (`
-   <ul class="list-group override-border-radius me-2">
+   <ul class="list-group pt-2">
    ${
       exploreItems.map(post => {
         return(PostSummaryItem(post));
