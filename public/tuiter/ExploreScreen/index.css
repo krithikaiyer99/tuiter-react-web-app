@@ -1,0 +1,148 @@
+/* body {
+    background-color: black;
+    position: absolute;
+    left: 16px;
+    top: 12px;
+    border: solid  rgb(47, 51, 54);
+    
+} */
+
+/* .wd-search-container {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    display: flex; 
+    margin-left: 16px;
+    margin-top: 12px;
+    margin-right: 12px;
+}
+
+.wd-search-bar-container {
+    background-color: #5A5A5A;
+    border-radius: 25px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+    width: 50%;
+} */
+
+/* .wd-search-bar {
+    background-color: #5A5A5A;
+    border: none;
+    justify-self: center;
+    font-size: 20px;
+    outline: none;
+}
+
+.wd-search-icon {
+    padding-left: 10px;
+    padding-right: 10px;
+} */
+
+/* input[type="search"]::placeholder {
+    color: rgb(110, 118, 125);
+} */
+
+/* .wd-setting-gear {
+    position: absolute;
+    right: 12px;
+}
+
+.wd-menu-container {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    margin-left: 16px;
+    margin-top: 12px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-menu-item {
+    padding: 16px;
+}
+
+.wd-menu-item-highlight {
+    border-bottom: solid;
+    border-width: 2px;
+    color: rgb(29, 161, 242);
+} */
+
+/* .wd-content-container {
+    border: solid rgb(47, 51, 54);
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+
+.wd-content-container-header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.wd-space-btw {
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.wd-margins {
+    margin-left: 16px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+.wd-margin-lefttop {
+    margin-left: 16px;
+    margin-top: 12px;
+}
+
+.wd-content-container-header-two {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.wd-title {
+    color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wd-marginleft {
+    margin-left: 16px;
+}
+
+.wd-corner {
+    color: white;
+    font-size: 30px;
+    right: 20px;
+    position: absolute;
+}
+
+.wd-account {
+    font-weight: bold;
+    font-size: 13px;
+    color: white;
+}
+
+.wd-content-image {
+    border-radius: 4px;
+    margin-right: 16px;
+}
+
+.wd-round {
+    border-radius: 50%;
+}
+.wd-content-header-d{
+    display: flex;
+    font-size: 13px;
+}
+.wd-text-white {
+    color:white;
+}
+
+.wd-text {
+    color: rgb(110, 118, 125);
+    font-size: 13px;
+}
+.wd-border {
+    border: c;
+    color: rgb(110, 118, 125);
+} */
