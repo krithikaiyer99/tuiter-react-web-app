@@ -9,8 +9,8 @@ const profile = {
     bio: 'Graduate Student @northeastern | Proficient using Java, SQL, Python | Web Development and Mobile Development',
     website: 'www.youtube.com',
     location: 'Boston, MA',
-    dateOfBirth : '07/07/1968',
-    dateJoined: '4/2009',
+    dateOfBirth : '1968-07-07',
+    dateJoined: '2009-04-01',
     followingCount: 340,
     followersCount: 223
 };
