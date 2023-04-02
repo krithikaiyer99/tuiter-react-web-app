@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_BASE = "https://tuiter-node-server-app-416n.onrender.com";
+const API_BASE = "https://tuiter-node-server-app-416n.onrender.com/api";
 const TUITS_API = `${API_BASE}/tuits`;
 
 export const findTuits = async () => {
