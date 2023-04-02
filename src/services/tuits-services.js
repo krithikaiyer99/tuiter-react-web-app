@@ -1,5 +1,5 @@
 import axios from "axios";
-const API_BASE = "https://a8--glittering-brigadeiros-389b66.netlify.app/tuiter/home";
+const API_BASE = "https://tuiter-node-server-app-416n.onrender.com";
 const TUITS_API = `${API_BASE}/tuits`;
 
 export const findTuits = async () => {
