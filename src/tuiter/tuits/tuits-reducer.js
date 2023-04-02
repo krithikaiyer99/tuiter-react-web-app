@@ -54,8 +54,8 @@ const tuitsSlice = createSlice({
     [createTuitThunk.fulfilled]: (state, { payload }) => {
       state.loading = false;
       state.tuits.push({
-        ...templateTuit,
-        ...payload
+        ...payload,
+        ...templateTuit
       });
     },
     [updateTuitThunk.fulfilled]: (state, { payload }) => {
