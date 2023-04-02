@@ -1,7 +1,8 @@
 import "./index.css";
 import TuitStats from "./tuit-stats";
 import { useDispatch } from "react-redux";
-import {deleteTuit} from "../tuits/tuits-reducer";
+import {deleteTuitThunk} from "../../services/tuits-thunks";
+
 const TuitItem = ({
   post = {
     _id: 234,
@@ -15,13 +16,15 @@ const TuitItem = ({
     replies: 123,
     retuits: 432,
     likes: 2345,
+    dislike: 34,
+    disliked: false,
     handle: "@spacex",
     tuit: "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars",
   },
 }) => {
   const dispatch = useDispatch();
   const deleteTuitHandler = (id) => {
-    dispatch(deleteTuit(id));
+    dispatch(deleteTuitThunk(id));
   };
 
   return (
